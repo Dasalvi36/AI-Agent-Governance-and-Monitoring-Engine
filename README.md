@@ -86,7 +86,7 @@ Each row includes:
 - Target
 - Decision badge (Allowed / Blocked)
 - Policy reason
-- 
+  
 # 7. Future Enhancements
  
 • Adding rolebased policy rules  
