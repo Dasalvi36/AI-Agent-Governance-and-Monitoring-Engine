@@ -107,13 +107,13 @@ Each row includes:
 
 # Steps to execute this projects
 
-# STEP 1 — Activate virtual environment
+STEP 1 — Activate virtual environment
 
 In **Command Prompt**, run:
 venv\Scripts\activate.bat
 
 
-# STEP 2 — Starting the FastAPI backend
+STEP 2 — Starting the FastAPI backend
 
 Run:
 uvicorn main:app --reload
@@ -122,7 +122,7 @@ This starts the API at:
 
 http://127.0.0.1:8000
 
-# STEP 3 — Running the simulated agent
+STEP 3 — Running the simulated agent
 
 Open a **second terminal**, activate venv again:
 venv\Scripts\activate.bat
@@ -132,7 +132,7 @@ python simulate_agent.py
 
 This will start sending actions to the backend.
 
-# STEP 4 — Starting the Streamlit dashboard
+STEP 4 — Starting the Streamlit dashboard
 
 Open a **third terminal**, activate venv again:
 venv\Scripts\activate.bat
