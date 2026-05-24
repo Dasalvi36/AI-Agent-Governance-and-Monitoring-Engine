@@ -91,8 +91,6 @@ Each row includes:
  
 • Adding rolebased policy rules  
 • Integrating a real LLM agent instead of a simulator  
-
-
 # Steps to execute this project
 
 **STEP 1: Activate virtual environment**
