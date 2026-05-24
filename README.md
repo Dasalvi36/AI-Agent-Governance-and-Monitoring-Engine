@@ -50,21 +50,7 @@ The project consists of three components:
   - Metrics
   - Colour coded badges
 
-# 4. How to Run the Project
-
-Step 1 — Install dependencies:
-    pip install fastapi uvicorn streamlit pandas sqlite3
-
-Step 2 — Start the backend API:
-    uvicorn main:app --reload
-
-Step 3 — Run the simulated agent:
-    python simulate_agent.py
-
-Step 4 — Launch the dashboard:
-    streamlit run dashboard.py
-
-# 5. Policy Engine Logic
+# 4. Policy Engine Logic
 
 The backend enforces simple safety rules such as:
 
@@ -74,7 +60,7 @@ The backend enforces simple safety rules such as:
 
 Each decision includes a human‑readable reason.
 
-# 6. Database Schema
+# 5. Database Schema
 
 SQLite table: agent_actions
 
@@ -85,7 +71,8 @@ Columns:
 - allowed (integer: 1 = allowed, 0 = blocked)
 - reason (text)
 
-# 7. Dashboard Preview
+
+# 6. Dashboard Preview
 
 The dashboard displays:
 
@@ -99,13 +86,14 @@ Each row includes:
 - Target
 - Decision badge (Allowed / Blocked)
 - Policy reason
-
-# 8. Future Enhancements
+- 
+# 7. Future Enhancements
  
 • Adding rolebased policy rules  
 • Integrating a real LLM agent instead of a simulator  
 
-# Steps to execute this projects
+
+# Steps to execute this project
 
 **STEP 1: Activate virtual environment**
 
