@@ -105,5 +105,43 @@ Each row includes:
 • Adding rolebased policy rules  
 • Integrating a real LLM agent instead of a simulator  
 
+# Steps to execute this projects
+
+# STEP 1 — Activate virtual environment
+
+In **Command Prompt**, run:
+venv\Scripts\activate.bat
+
+
+# STEP 2 — Starting the FastAPI backend
+
+Run:
+uvicorn main:app --reload
+
+This starts the API at:
+
+http://127.0.0.1:8000
+
+# STEP 3 — Running the simulated agent
+
+Open a **second terminal**, activate venv again:
+venv\Scripts\activate.bat
+
+Then run:
+python simulate_agent.py
+
+This will start sending actions to the backend.
+
+# STEP 4 — Starting the Streamlit dashboard
+
+Open a **third terminal**, activate venv again:
+venv\Scripts\activate.bat
+
+Then run:
+streamlit run dashboard.py
+
+The dashboard will open at:
+http://localhost:8501
+
 # Output
 <img width="2046" height="1213" alt="image" src="https://github.com/user-attachments/assets/8eb56196-abe8-4fdd-a19d-ed3e7a538ae8" />
